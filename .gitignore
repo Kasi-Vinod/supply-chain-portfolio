@@ -1,2 +1,26 @@
-# Google App Engine generated folder
-appengine-generated/
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.envrc
+
+# Jupyter
+.ipynb_checkpoints
+
+# Data
+data/
+*.csv
+*.xlsx
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Power BI
+*.pbix
+
+# Git LFS (if used, track in .gitattributes instead)
