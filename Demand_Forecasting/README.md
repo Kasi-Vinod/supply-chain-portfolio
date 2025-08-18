@@ -16,7 +16,7 @@ The goal is to build a structured forecasting framework that improves
 - `visuals/` → Folder containing charts and output images.  
 
 <div style="margin-bottom: 15px; text-align: center;">
-  <img src="visuals/GMV_Forecasted (for April).png" alt="GMV_Forecasted (for April)" width="65%"/>
+  <img src="visuals/GMV_Forecasted (for April).png" alt="GMV_Forecasted (for April)" width="90%"/>
 </div>
 
 <div style="display: flex; justify-content: center; gap: 10px;">
