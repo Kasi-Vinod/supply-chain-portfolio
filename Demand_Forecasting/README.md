@@ -15,11 +15,15 @@ The goal is to build a structured forecasting framework that improves
 - [ABC & Multi criteria ABC analysis.xlsx](ABC%20&%20Multi%20criteria%20ABC%20analysis.xlsx) → Excel file containing raw data and analysis.  
 - `visuals/` → Folder containing charts and output images.  
 
+<div style="margin-bottom: 15px;">
+  <img src="visuals/GMV_Forecasted (for April).png" alt="GMV_Forecasted (for April)" width="60%"/>
+</div>
+
 <div style="display: flex; gap: 10px;">
-  <img src="visuals/GMV_Forecasted (for April).png" alt="GMV_Forecasted (for April)" width="45%"/>
   <img src="visuals/EDA_1.png" alt="EDA_1" width="45%"/>
   <img src="visuals/EDA_2.png" alt="EDA_2" width="45%"/>
 </div>  
+ 
 
 ---
 
