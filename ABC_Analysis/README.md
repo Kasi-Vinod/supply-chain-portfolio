@@ -11,8 +11,8 @@ The goal is to prioritize items based on consumption value and other business cr
 - `visuals/` → Folder containing charts and output images
 
 <p align="center">
-  <img src="visuals/chart_1.png" alt="Chart_1" width="45%"/>
-  <img src="visuals/chart_2.png" alt="Chart_2" width="45%"/>
+  <img src="visuals/Chart_1.png" alt="Chart_1" width="45%"/>
+  <img src="visuals/Chart_2.png" alt="Chart_2" width="45%"/>
 </p>
 
 ---
