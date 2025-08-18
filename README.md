@@ -8,7 +8,7 @@ Welcome — this repository contains my hands-on projects in supply chain analyt
 
 | Project Name | Focus Area | Tools Used | Link |
 |--------------|------------|------------|------|
-| Multi-Criteria ABC Analysis | Vendor Prioritization | Excel, Python, Power BI | [View Project](ABC_Analysis/README.md) |
+| ABC & Multi-Criteria ABC Analysis | Segmentation | Excel, Python, Power BI | [View Project](ABC_Analysis/README.md) |
 | Demand Forecasting | Time-series forecasting | Python (Prophet, ARIMA) | [View Project](Demand_Forecasting/README.md) |
 | Inventory Optimization | EOQ, Safety Stock | Excel, Python | [View Project](Inventory_Optimization/README.md) |
 | Supplier Lead Time Analysis | Supplier performance | SQL, Power BI | [View Project](Lead_Time_Analysis/README.md) |
