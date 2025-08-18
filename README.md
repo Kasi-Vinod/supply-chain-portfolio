@@ -6,7 +6,7 @@ Welcome — this repository contains my hands-on projects in supply chain analyt
 
 ## 📂 Projects Overview
 
-| Project Name | Focus Area | Tools Used | Link |
+| Project Name | SCM Focus Area | Tools Used | Link |
 |--------------|------------|------------|------|
 | ABC & Multi-Criteria ABC Analysis | Segmentation | Excel, Python, Power BI | [View Project](ABC_Analysis/README.md) |
 | Demand Forecasting | Time-series forecasting | Python (Prophet, ARIMA) | [View Project](Demand_Forecasting/README.md) |
