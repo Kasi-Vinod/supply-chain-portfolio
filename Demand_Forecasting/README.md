@@ -16,7 +16,7 @@ The goal is to build a structured forecasting framework that improves
 ---
 
 ## 📂 Files Included  
-- [ABC & Multi criteria ABC analysis.xlsx](ABC%20&%20Multi%20criteria%20ABC%20analysis.xlsx) → Excel file containing raw data and analysis.  
+- [Forecasting - Analysis.xlsx](Demand_Forecasting/Forecasting - Analysis.xlsx) → Excel file containing raw data and analysis.  
 - `visuals/` → Folder containing charts and output images.  
 
 <div style="margin-bottom: 15px; text-align: center;">
