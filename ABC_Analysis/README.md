@@ -6,11 +6,12 @@ The goal is to prioritize items based on consumption value and other business cr
 
 ---
 
-## 📂 Files Included
-- [ABC & Multi criteria ABC analysis.xlsx](./ABC%20%26%20Multi%20criteria%20ABC%20analysis.xlsx) → Excel file containing raw data and analysis.
-- `visuals/` → Folder containing charts and output images  
-  - [Chart 1](./WhatsApp%20Image%202025-08-18%20at%2015.38.38_9861b57f.jpg)  
-  - [Chart 2](./WhatsApp%20Image%202025-08-18%20at%2015.38.38_ef804902.jpg)
+### Files Included
+- [ABC & Multi criteria ABC analysis.xlsx](ABC%20&%20Multi%20criteria%20ABC%20analysis.xlsx) → Excel file containing raw data and analysis.
+- `visuals/` → Folder containing charts and output images
+
+![Chart 1](visuals/chart1.png)  
+![Chart 2](visuals/chart2.png)
 
 ---
 
