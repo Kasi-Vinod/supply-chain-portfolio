@@ -9,7 +9,7 @@ Welcome — this repository contains my hands-on projects in supply chain analyt
 | Project Name | SCM Focus Area | Tools Used | Link |
 |--------------|------------|------------|------|
 | ABC & Multi-Criteria ABC Analysis | Segmentation | Excel, Python, Power BI | [View Project](ABC_Analysis/README.md) |
-| Demand Forecasting | Time-series forecasting | Python (Prophet, ARIMA) | [View Project](Demand_Forecasting/README.md) |
+| Demand Forecasting | Linear Regression | Excel, Python | [View Project](Demand_Forecasting/README.md) |
 | Inventory Optimization | EOQ, Safety Stock | Excel, Python | [View Project](Inventory_Optimization/README.md) |
 | Supplier Lead Time Analysis | Supplier performance | SQL, Power BI | [View Project](Lead_Time_Analysis/README.md) |
 | Transportation Route Optimization | Routing & costs | Python (OR-Tools) | [View Project](Transportation_Route_Optimization/README.md) |
