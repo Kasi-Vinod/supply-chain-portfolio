@@ -17,6 +17,52 @@ The goal is to prioritize items based on consumption value and other business cr
 
 ---
 
+🔑 Methodology
+1. Segmentation in Inventory Management
+
+Segmentation helps organizations classify inventory items based on impact, instead of treating all items equally. This ensures better control and optimized resource allocation.
+
+2. ABC Analysis (Single-Criterion)
+
+Basis: Annual consumption value (Sales × Unit Price).
+
+Approach:
+
+Rank items in descending order of revenue contribution.
+
+Classify into:
+
+A: Top ~70–80% contribution (high-value items).
+
+B: Next ~15–20%.
+
+C: Remaining low-value items.
+
+Use Case: Prioritize monitoring, tighter control, and frequent review of "A" items.
+
+3. Multi-Criteria ABC Analysis
+
+Basis: Multiple factors, not just sales. Example criteria:
+
+Revenue contribution.
+
+Lead time.
+
+Demand variability.
+
+Criticality (business impact if stockout occurs).
+
+Approach:
+
+Assign weights to each criterion.
+
+Compute a composite score.
+
+Re-rank and classify SKUs into A, B, C segments.
+
+Use Case: More holistic prioritization where low-revenue but critical or high-risk items also get visibility.
+
+---
 ## 🔑 Key Steps
 1. **Data Preparation** – Extract sales/inventory data from the system.  
 2. **ABC Analysis** – Rank SKUs based on cumulative consumption value.  
