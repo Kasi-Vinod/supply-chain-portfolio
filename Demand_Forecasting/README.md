@@ -2,7 +2,11 @@
 
 ## 📌 Project Overview
 This project demonstrates **Demand Planning and Forecasting** using historical sales data.  
-The analysis focuses on **Exploratory Data Analysis (EDA), Trend Analysis, and Regression Modeling** to forecast traffic and GMV (Gross Merchandise Value).  
+The analysis focuses on
+- Exploratory Data Analysis (EDA)
+- Trend Analysis
+- Regression Modeling
+to forecast traffic and GMV (Gross Merchandise Value).  
 
 The goal is to build a structured forecasting framework that improves
 - Accuracy
