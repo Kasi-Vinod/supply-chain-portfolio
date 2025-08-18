@@ -1,42 +1,71 @@
-# 📈 Demand Planning & Forecasting – Case Study
+# 📈 Demand Planning & Forecasting
 
 ## 📌 Project Overview
 This project demonstrates **Demand Planning and Forecasting** using historical sales data.  
 The analysis focuses on **Exploratory Data Analysis (EDA), Trend Analysis, and Regression Modeling** to forecast traffic and GMV (Gross Merchandise Value).  
 
-The goal is to build a structured forecasting framework that improves **accuracy, demand visibility, and planning efficiency**.
+The goal is to build a structured forecasting framework that improves
+- Accuracy
+- Demand visibility
+- Planning efficiency
 
 ---
 
-## 📂 Files Included
-- **Vinod kasi - Demand Planning - Forecasting - Case Study - Analysis.xlsx** → Main Excel workbook containing:
-  - `Given Data` → Historical sales/traffic dataset  
-  - `EDA` → Data cleaning & exploratory analysis  
-  - `Trend line - Analysis` → Trend patterns & visualization  
-  - `Regression for - April_Traffic` → Forecasting model for traffic  
-  - `Regression for - April_GMV` → Forecasting model for GMV  
-  - `Sheet1` → Supporting calculations  
+## 📂 Files Included  
+- [ABC & Multi criteria ABC analysis.xlsx](ABC%20&%20Multi%20criteria%20ABC%20analysis.xlsx) → Excel file containing raw data and analysis.  
+- `visuals/` → Folder containing charts and output images.  
+
+<div style="display: flex; gap: 10px;">
+  <img src="visuals/GMV_Forecasted (for April).png" alt="GMV_Forecasted (for April)" width="45%"/>
+  <img src="visuals/EDA_1.png" alt="EDA_1" width="45%"/>
+  <img src="visuals/EDA_2.png" alt="EDA_2" width="45%"/>
+</div>  
 
 ---
 
-## 🔑 Key Steps
-1. **Data Preparation**
-   - Collected historical demand and sales data.
-   - Cleaned missing and inconsistent entries.
-   - Structured dataset for regression-based forecasting.
+# Sales Forecasting – GMV & Traffic Analysis  
 
-2. **Exploratory Data Analysis (EDA)**
-   - Identified seasonal and monthly demand variations.
-   - Plotted trends in traffic and GMV.
-   - Detected outliers affecting forecasting accuracy.
+This project applies **multiple regression modeling** to forecast April’s GMV (Gross Merchandise Value) and Traffic, incorporating event tags, weekdays, and historical traffic trends.  
 
-3. **Trend Analysis**
-   - Applied trendline fitting to visualize long-term demand.
-   - Used regression models to capture demand shifts.
+---
 
-4. **Forecasting Models**
-   - **Traffic Forecasting** → Built regression model to predict future website/app traffic.  
-   - **GMV Forecasting** → Applied multi-linear regression to estimate Gross Merchandise Value.  
+## Methodology  
+
+- The forecasting approach is based on a **Multiple Regression Model**.  
+- Regression helps in identifying the relationship between dependent (GMV/Traffic) and independent variables (events, weekdays, past traffic).  
+- The model first predicts **April Traffic** using event and weekday features, and then uses predicted traffic along with other variables to estimate **April GMV**.  
+- This method allows separation of **Business-as-Usual (BAU)** performance from **Event-driven** performance.  
+
+---
+
+## Data Preparation & Feature Engineering  
+
+To build the regression-ready dataset in Excel, the following steps were performed:  
+
+- **One-Hot Encoding**  
+  - Created additional columns for **days of the week** (Mon–Sun) to capture weekday patterns.  
+  - Created binary event tag columns to differentiate **Event Days vs BAU Days**.  
+
+- **Feature Scaling**  
+  - Normalized/standardized traffic-related columns where necessary to make regression more stable.  
+
+- **Feature Selection**  
+  - Selected predictors like **event tags, weekdays, and historical traffic** that showed strong correlation with GMV.  
+  - Removed redundant variables to avoid multicollinearity.  
+
+These preprocessing steps improved interpretability and ensured the regression model could capture traffic and event effects effectively.  
+
+---
+
+## Contents
+
+The Excel file contains the following sheets:  
+
+1. **Given Data** – Raw GMV & Traffic data.  
+2. **EDA** – Event-wise & BAU summaries with April forecast.  
+3. **Trend Line Analysis** – Visualization of GMV & Traffic with event markers, including April forecasts.  
+4. **Regression for April_Traffic** – Traffic forecast using event tags & weekday variables.  
+5. **Regression for April_GMV** – GMV forecast based on predicted traffic (from Sheet 4) & additional predictors.  
 
 ---
 
@@ -56,13 +85,6 @@ The goal is to build a structured forecasting framework that improves **accuracy
 
 ---
 
-## 🔮 Future Improvements
-- Automate forecasting with **Python (scikit-learn / statsmodels)**.  
-- Incorporate **time-series methods (ARIMA, Prophet, LSTM)**.  
-- Add **visual dashboards** in Power BI/Tableau for business users.  
-
----
-
 ## 🏆 Key Learnings
 - Importance of **data cleaning & EDA** in forecasting.  
 - How regression models improve **demand predictability**.  
@@ -70,3 +92,9 @@ The goal is to build a structured forecasting framework that improves **accuracy
 
 ---
 
+## 🔮 Future Improvements
+- Automate forecasting with **Python (scikit-learn / statsmodels)**.  
+- Incorporate **time-series methods (ARIMA, Prophet, LSTM)**.  
+- Add **visual dashboards** in Power BI/Tableau for business users.  
+
+---
