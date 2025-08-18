@@ -49,9 +49,3 @@ Handwritten notes explaining the theory:
 - Jupyter Notebook: Analysis & visualization
 
 ---
-
-## 🚀 How to Run
-1. Clone this repo
-   ```bash
-   git clone https://github.com/<your-username>/SupplyChain-Portfolio.git
-   cd SupplyChain-Portfolio/ABC_Analysis
