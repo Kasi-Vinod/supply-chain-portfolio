@@ -1,29 +1,57 @@
-# 🏷 Multi-Criteria ABC Analysis
+# 📊 Multi-Criteria ABC Analysis
 
-## 🎯 Objective
-Classify vendors into A, B, and C categories using **sales, revenue, and delivery performance**.
-
-## 📊 Data Source
-- Simulated dataset (vendors, sales, revenue, delivery times)
-
-## 🛠 Tools Used
-- Python (Pandas, NumPy, Matplotlib)
-- Excel for quick analysis
-- Power BI for dashboards
-
-## 🔍 Approach
-1. Data cleaning & preprocessing
-2. Calculated multiple KPIs: sales, revenue contribution, delivery performance
-3. Applied ABC classification based on combined score
-4. Created dashboard for management review
-
-## 📈 Results
-- 18% of vendors contribute to 75% of total revenue
-- Identified potential risks in C-category vendors due to high lead time
-
-## 📌 Business Impact
-Helps prioritize vendors for negotiation, performance improvement, and stronger relationships.
+## 📌 Project Objective
+The goal of this project is to apply **ABC Analysis** and **Multi-Criteria ABC Analysis** to segment suppliers/products/customers based on business impact, using both **Pareto 80/20 principle** and multi-dimensional drivers.
 
 ---
 
-![ABC Chart](results/abc_chart.png)
+## 📂 Dataset
+- File: `data/ABC_MultiCriteria.xlsx`
+- Contains transaction data used for ABC categorization.
+
+---
+
+## 🛠 Methodology
+1. **Segmentation Theory**
+   - Customer segmentation
+   - Supplier segmentation
+   - Product segmentation
+   - Based on Pareto (80/20 rule).
+
+2. **ABC Classification**
+   - A: Top 70–75% of business value.
+   - B: Next 20%.
+   - C: Last 5–10%.
+
+3. **Multi-Criteria ABC**
+   - Combines revenue, quantity, and margin drivers.
+   - Categories (e.g., A–A, B–C, C–A).
+
+---
+
+## 📊 Results
+- A, B, C segmentation by revenue & volume.
+- Multi-criteria classification matrix.
+- Visualization of Pareto distribution.
+
+---
+
+## 📸 Documentation
+Handwritten notes explaining the theory:
+- `docs/theory_notes/segmentation.jpg`
+- `docs/theory_notes/abc_analysis.jpg`
+
+---
+
+## 🛠 Tools Used
+- Python: Pandas, NumPy, Matplotlib, Seaborn
+- Excel: Initial dataset preparation
+- Jupyter Notebook: Analysis & visualization
+
+---
+
+## 🚀 How to Run
+1. Clone this repo
+   ```bash
+   git clone https://github.com/<your-username>/SupplyChain-Portfolio.git
+   cd SupplyChain-Portfolio/ABC_Analysis
