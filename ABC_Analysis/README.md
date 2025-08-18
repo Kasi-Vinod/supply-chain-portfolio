@@ -10,8 +10,8 @@ The goal is to prioritize items based on consumption value and other business cr
 - [ABC & Multi criteria ABC analysis.xlsx](ABC%20&%20Multi%20criteria%20ABC%20analysis.xlsx) → Excel file containing raw data and analysis.
 - `visuals/` → Folder containing charts and output images
 
-![Chart 1](visuals/chart_1.png)  
-![Chart 2](visuals/chart_2.png)
+![Chart 1](ABC_Analysis/visuals/Chart_1.png)  
+![Chart 2](ABC_Analysis/visuals/Chart_2.png)
 
 ---
 
