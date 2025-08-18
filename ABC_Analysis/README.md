@@ -31,5 +31,5 @@ The goal is to prioritize items based on consumption value and other business cr
 
 ## 🚀 How to Use
 1. Open the Excel file to explore the calculations.  
-2. Refer to the charts in the `visuals` folder for graphical interpretation.  
+2. Refer to the charts in the  file for graphical interpretation.  
 3. Apply the framework to your own inventory dataset.  
