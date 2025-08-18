@@ -31,9 +31,9 @@ Segmentation helps in answering key questions like:
 ### 2. **ABC Analysis (by Sales/Revenue)**  
 - Items were ranked in descending order of **sales contribution**.  
 - **Pareto principle applied**:  
-  - **A-class** → Top ~70–80% of cumulative sales value (high priority).  
-  - **B-class** → Next ~15–20%.  
-  - **C-class** → Remaining ~5–10% (low impact).  
+  - **A-category** → Top ~75% of cumulative sales value (high priority).  
+  - **B-category** → Next ~20%.  
+  - **C-category** → Remaining ~5% (low impact).  
 
 👉 This identified the **few items driving majority of sales**.  
 
@@ -43,16 +43,17 @@ Segmentation helps in answering key questions like:
   - **Revenue** contribution.  
   - **Lead Time** (longer lead = higher importance).  
   - **Stock-out Risk** / **Criticality score**.  
-- Used **weighted scoring** to rank items more holistically.  
+- In this project i included only Revenue as the second factor for segmentation.
+- The categories are like A-A, A-B, A-C, B-A, B-B, B-C, C-A, C-B, C-C.
 
 👉 This ensured that even **low-sales but high-critical items** were prioritized.  
 
 ---
 
 ## 📊 Business Impact  
-- **Improved Inventory Focus** → Concentrated on A-class and critical items.  
-- **Optimized Holding Cost** → Avoided overstocking low-value C-class SKUs.  
-- **Enhanced Supplier Strategy** → Prioritized suppliers of A-class & critical SKUs.  
+- **Improved Inventory Focus** → Concentrated on A-category and critical items.  
+- **Optimized Holding Cost** → Avoided overstocking low-value C-category SKUs.  
+- **Enhanced Supplier Strategy** → Prioritized suppliers of A-category & critical SKUs.  
 - **Risk Mitigation** → Prevented stockouts of high-criticality items.  
 
 ---
@@ -63,13 +64,13 @@ Segmentation helps in answering key questions like:
    - **ABC sheet** → Sales-based classification.  
    - **Multi-Criteria sheet** → Weighted scoring analysis.  
 3. Check charts inside `visuals/` or embedded above for graphical interpretation.  
-4. Apply the framework to your own dataset by adjusting weights and criteria.  
+4. Apply the framework to your own dataset by adjusting to your required factors of your choice.  
 
 ---
 
 ## 📌 Example Insights  
-- In the dataset, **20% of SKUs contributed ~80% of sales (A-class)**.  
-- However, multi-criteria analysis showed **some B/C items were critical due to long lead times**, requiring higher attention than pure sales ranking suggested.  
+- In the dataset, **20% of SKUs contributed ~80% of sales (A-category)**.  
+- However, multi-criteria analysis showed **some B/C items were critical due to sales and revenue pointof view**, requiring higher attention than pure sales ranking suggested.  
 
 ---
 
