@@ -16,6 +16,8 @@ Segmentation helps in answering key questions like:
 - `visuals/` → Folder containing charts and output images.  
 
 <div style="display: flex; gap: 10px;">
+  <img src="visuals/Chart_4.png" alt="Chart_4" width="45%"/>
+  <img src="visuals/Chart_3.png" alt="Chart_3" width="45%"/>
   <img src="visuals/Chart_1.png" alt="Chart_1" width="45%"/>
   <img src="visuals/Chart_2.png" alt="Chart_2" width="45%"/>
 </div>  
